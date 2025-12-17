@@ -11,6 +11,7 @@
 */
 
 @keyframes sparks {
+
   from {
     opacity: 0;
   }
@@ -21,6 +22,7 @@
 }
 
 @keyframes like-pop {
+  
   from {
     scale: 1;
   }
