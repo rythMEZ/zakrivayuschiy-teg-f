@@ -37,7 +37,7 @@
   margin-block-start: 100px;
   border: solid 2px currentColor;
   padding-block: var(--header-padding);
-  font-family: var(--accent-font-family, monospace);
+  font-family: var(--accent-font-family, fantasy);
   background-color: var(--color-bg-primary);
   min-inline-size: var(--container-width);
 }
@@ -87,7 +87,7 @@
   top: 25px;
   right: 25px;
   opacity: 0.5;
-  font-family: var(--accent-font-family, monospace);
+  font-family: var(--accent-font-family, fantasy);
   font-weight: var(--accent-font-weight);
   font-size: var(--accent-font-size);
   line-height: 100%;
@@ -231,7 +231,7 @@
   border: 2px solid var(--border-color-primary);
   overflow: hidden;
   color: var(--main-button-color);
-  font-family: var(--accent-font-family, monospace);
+  font-family: var(--accent-font-family, fantasy);
   font-size: var(--accent-font-size);
   background-color: var(--color-bg-primary);
   transition: box-shadow 0.3s ease;
@@ -329,7 +329,7 @@
 
 .dialog__title {
   grid-column: 2;
-  font-family: var(--accent-font-family, monospace);
+  font-family: var(--accent-font-family, fantasy);
   font-weight: var(--accent-font-weight);
   font-size: var(--accent-font-size);
   line-height: 150%;
