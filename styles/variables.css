@@ -4,11 +4,11 @@
   --accent-font-size-logo: clamp(3.0625rem, 2.71rem + 1.5vw, 4.0625rem);
   --accent-font-size-title: clamp(0.875rem, 0.68rem + 0.85vw, 1.4375rem);
   --container-width: clamp(23.4375rem, 16.29rem + 30.52vw, 43.75rem);
-  --container-height: clamp(20.4375rem, 19.54rem + 3.85vw, 23rem);
+  --header-padding-inline: clamp(7.625rem, 7.45rem + 0.75vw, 8.125rem);
   --dialog-widht: clamp(341px, 336.77px + 1.13vw, 353px);
 
   /*Fonts*/
-  --accent-font-family: 'PressStart2P-Regular';
+  --accent-font-family: 'PressStart2P';
   --main-font-family: 'Inter-Variable';
   --main-font-size: 18px;
   --main-font-wght: 410;
@@ -19,7 +19,7 @@
   /*Colors*/
   --main-text-color: #000;
   --accent-color: #000;
-  --bg-color: #E7E7E7;
+  --bg-color: #e7e7e7;
   --color-bg-primary: #fff;
   --color-text-outline: #fff;
   --main-button-color: #fff;

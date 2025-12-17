@@ -51,6 +51,7 @@
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
                 <g class="heart">
                   <path
@@ -76,7 +77,7 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button class="button card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -115,6 +116,7 @@
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
                 <g class="heart">
                   <path
@@ -140,7 +142,7 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button class="button card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -178,6 +180,7 @@
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
                 <g class="heart">
                   <path
@@ -203,7 +206,7 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button class="button card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -241,6 +244,7 @@
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
                 <g class="heart">
                   <path
@@ -266,7 +270,7 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button class="button card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -307,6 +311,7 @@
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
                 <g class="heart">
                   <path
@@ -332,7 +337,7 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button class="button card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -371,6 +376,7 @@
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
                 <g class="heart">
                   <path
@@ -396,7 +402,7 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button class="button card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -436,6 +442,7 @@
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
                 <g class="heart">
                   <path
@@ -461,7 +468,7 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button class="button card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -502,6 +509,7 @@
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
                 <g class="heart">
                   <path
@@ -527,14 +535,12 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button class="button card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
-    </main>
-    <footer class="footer">
       <button
         class="button button__save"
         type="button"
@@ -546,7 +552,8 @@
         </svg>
         <span class="button__text">Сохранить на память</span>
       </button>
-    </footer>
+    </main>
+
     <dialog class="dialog" id="dialog-id">
       <svg class="dialog__icon" viewBox="0 0 39 39">
         <use href="./svg/floppy.svg#floppy"></use>
@@ -554,7 +561,7 @@
       <h2 class="dialog__title">Вставьте дискету, чтобы продолжить</h2>
       <button
         class="button button__confirm"
-        type="button"
+        type="submit"
         onclick="window['dialog-id'].close()"
       >
         <span class="button__text">ОК</span>
